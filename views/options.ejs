@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <% include partials/templates/head.ejs %>
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/options.css"/>
+    <title>Options</title>
+     
+    </head>
+    <body>
+             <% include partials/templates/header.ejs %>
+                <div class="text-center" style=" padding-top: 150px;">
+                        <% if(typeof current_user !== 'undefined' && current_user.username != null) { %>
+                            
+                            <p id="fonttmp"> Hi, <%= current_user.username %> </p>
+                           <% } %>
+
+                </div>              
+                   <div class="container content">
+                        <div class="row-fluid">
+                            <div class="Absolute-Center is-Responsive">
+                                <h1>Generous or Needy, we got a solution for all!!</h1>
+                                <section>
+                                    <form action="/postride" method="get" class="span6" id="bt1">
+                                    <button class='dotted thick'>Post Ride</button>
+                                    </form>
+                                     <form action="/needride" method="get" class="span6" id="bt2">
+                                    <button class='dotted thick'>Need Ride</button>
+                                    </form>
+                                </section>
+                            </div> 
+                        </div>
+                    </div>
+    </body>
+</html>
