@@ -1,3 +1,5 @@
+About RideOn
+RideOn,a ridesharing application built with Express.js, a Node.js framework.
 A user can LOGIN or SIGN UP at the Home page.
 The user can also access the pages “HOME”, “ABOUT US”, “CONTACT US”, “TEAM” and “TESTIMONIALS” without logging into the application. 
 To post a ride or request a ride, the user must login the application. Then user can choose “POST RIDE” or “NEED RIDE”.
