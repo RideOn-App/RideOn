@@ -12,11 +12,11 @@ Database  : MongoDB
 
 RideOn has two schemas and we have used MongoDB a NoSQL database.
 
-**rideSchema**
+**rideSchema**  
 This Schema is designed to hold the information about the rides posted.
 It has fields for destination,source, seats, stops, if the price is negotiable, car type and other personal details to contact the person who is offering the ride. 
 
-**userSchema**
+**userSchema**  
 userSchema has information about the registered users.
 It was hold the user infomrtion like registered email id, username and the password.
 
