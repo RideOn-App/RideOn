@@ -10,7 +10,7 @@ Database  : MongoDB
 
 ## Model
 
-RideOn has two schemas and we have used MongoDB a NoSQL database.
+RideOn uses MongoDB a NoSQL database and it has two schemas.
 
 **rideSchema**  
 This Schema is designed to hold the information about the rides posted.
@@ -18,23 +18,21 @@ It has fields for destination,source, seats, stops, if the price is negotiable, 
 
 **userSchema**  
 userSchema has information about the registered users.
-It was hold the user infomrtion like registered email id, username and the password.
+It has the user information like registered email id, username and the password.
 
 
 ##View
 
 We have used **ejs** templating engine to generate HTML markup.
 
-Home page has link to static pages about us, contact, team, testimonials and options to sign up and login.
-
 The application has two pages to post the ride and request ride by querying.
 
 
 ##Controller
 
-This part of the application uses **passport local** to authenticate users or sign them up.
+This part of the application uses **passport-local** to authenticate users or sign them up.
 
-It also controls the pert of posting the ride information into the database and querying them.
+It also controls the part of posting the ride information into the database and querying them.
 
 
 ##Hosting
